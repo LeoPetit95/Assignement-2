@@ -3,7 +3,7 @@ import path from 'path';
 const app = express();
 
 app.get('/', (_, res) => {
-    res.sendFile('C:/Users/grdan/OneDrive/Documents/EFREI/Etats-Unis/Cours/Web Prog/Module 2/Public/index.html');
+    res.sendFile('file:///Users/LeeoE/Desktop/Module%202/Public/index.html');
 });
 
 app.get('/api/task', (req, res) => {
